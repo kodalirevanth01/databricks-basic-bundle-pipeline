@@ -1,6 +1,6 @@
 tenant_id = "edf874bb-35fe-478a-b528-490414122885"
 client_id = "0ce30ac6-bd8b-4e13-8196-c7a9ece3e34c"
-client_secret = "NJU8Q~AiuftivkjZuD339HmiwWQC0Af3LzF6Ub55"
+client_secret = ""
 storage_account = "stdatabricksbasicdev1"
 
 
