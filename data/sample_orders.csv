@@ -1,0 +1,6 @@
+order_id,customer_id,customer_name,country,product,quantity,unit_price,order_date
+1,C001,Rahul,India,Laptop,1,55000,2026-05-01
+2,C002,Sneha,India,Mouse,2,700,2026-05-01
+3,C003,Ahmed,UAE,Keyboard,1,2500,2026-05-02
+4,C004,John,USA,Monitor,1,12000,2026-05-02
+5,C001,Rahul,India,USB Cable,3,300,2026-05-03
