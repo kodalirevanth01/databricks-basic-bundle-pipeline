@@ -7,18 +7,18 @@ resources:
         - task_key: bronze_layer
           spark_python_task:
             python_file: ../src/basic_pipeline/01_bronze.py
-          existing_cluster_id: "0503-125848-twcux1nm"
+          existing_cluster_id: "0503-132923-aohaozoi"
 
         - task_key: silver_layer
           depends_on:
             - task_key: bronze_layer
           spark_python_task:
             python_file: ../src/basic_pipeline/02_silver.py
-          existing_cluster_id: "0503-125848-twcux1nm"
+          existing_cluster_id: "0503-132923-aohaozoi"
 
         - task_key: gold_layer
           depends_on:
             - task_key: silver_layer
           spark_python_task:
             python_file: ../src/basic_pipeline/03_gold.py
-          existing_cluster_id: "0503-125848-twcux1nm"
+          existing_cluster_id: "0503-132923-aohaozoi"
