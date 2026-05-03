@@ -1,0 +1,12 @@
+bundle:
+  name: databricks-basic-bundle-pipeline
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-7405618105769021.1.azuredatabricks.net
